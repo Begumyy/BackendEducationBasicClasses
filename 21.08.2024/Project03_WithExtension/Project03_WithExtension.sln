@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project07_StringMethods", "Project07_StringMethods\Project07_StringMethods.csproj", "{5DD0A0DC-6CC4-41B8-B694-9C72394A20B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03_WithExtension", "Project03_WithExtension\Project03_WithExtension.csproj", "{AF06AD77-35B9-4992-8777-AAA2FBB88374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DD0A0DC-6CC4-41B8-B694-9C72394A20B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DD0A0DC-6CC4-41B8-B694-9C72394A20B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DD0A0DC-6CC4-41B8-B694-9C72394A20B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DD0A0DC-6CC4-41B8-B694-9C72394A20B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF06AD77-35B9-4992-8777-AAA2FBB88374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF06AD77-35B9-4992-8777-AAA2FBB88374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF06AD77-35B9-4992-8777-AAA2FBB88374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF06AD77-35B9-4992-8777-AAA2FBB88374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

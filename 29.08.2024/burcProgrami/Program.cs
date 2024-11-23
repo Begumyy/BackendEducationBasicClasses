@@ -4,14 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Kullanıcıdan doğum gününü ve ayını alma
+        // Kullanıcıdan doğum gününü ve ayını alıyoruz
         Console.Write("Doğum gününüz: ");
         int gun = int.Parse(Console.ReadLine());
 
         Console.Write("Doğum ayınız: ");
         string ay = Console.ReadLine().ToLower();
 
-        // Burçları belirleme
+        // burçlar belirleniyor
         string burc = "";
 
         if ((gun >= 22 && ay == "aralık") || (gun <= 20 && ay == "ocak"))
@@ -68,7 +68,7 @@ class Program
             return;
         }
 
-        // Burcu ekrana yazdırma
+        //veee ekrana yazdırıyoruz
         Console.WriteLine($"Burcunuz {burc} burcudur.");
     }
 }
