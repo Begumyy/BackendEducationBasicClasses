@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript'e Giriş</title>
+</head>
+<body>
+    <h1>Etkileşim</h1>
+    <p id="header-text">Merhaba Dünya</p>
+    <button onclick="changeText()">Tıkla</button>
+
+
+
+    <script>
+        //Burası js kodlarını yazabileceğiniz alandır.
+        function changeText(){
+            document.getElementById("header-text").innerText="Hello World";
+        }
+    </script>
+</body>
+</html>
