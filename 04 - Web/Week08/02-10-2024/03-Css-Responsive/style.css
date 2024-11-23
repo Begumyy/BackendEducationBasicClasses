@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: color #f4f4f4;
+    color:#555;
+}
+
+.page-header{
+    text-align:center;
+    background-color:#555;
+    color:#fff;
+    padding:30px;
+}
+
+h1{
+    font-size:4.5rem;
+}
+
+h2{
+    font-size:1.8rem;
+    margin-bottom:10px;
+    color:#777;
+}
+
+.skills h2{
+    margin-bottom:0;
+}
+
+.about, .skills, .links, .profile-picture, .contact-form{
+   background-color:white;
+   padding:20px;
+   margin:20px;
+   border-radius:10px;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0,4);
+}
+
+.skills{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;  
+}
+
+.skills-container{
+    display:flex;
+}
+
+.skills-card{
+    margin-right:20px;
+    background-color:#555;
+    padding:10px 20px;
+    color:#fff;
+    border-radius:5px;
+    cursor:pointer;
+    width:130px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    transition:transform 0.3s, box-shadow.3s;
+    /*transition: all .3s*/
+}
+
+.skills-card:hover{
+    transform:translateY(-2px);
+    box-shadow:0 2px 8px rgba(0,0,0,.3);
+}
+
+.links a{
+    text-decoration:none;
+    color:#0073e6;
+    font-weight:bold;
+}
+
+.links a:hover{
+    color:#065db5;
+}
+
+.profile-picture img{
+    border-radius:50%;
+    display:block;
+    margin:0 auto;
+}
+
+.contact-form, .contact-form textarea{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    border: 1px solid #ccc;
+    border-radius:8px;
+}
+
+.btn-submit{
+    background-color:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition:background-color 0.4s;
+}
+
+.btn-submit:hover{
+    background-color:#444;
+}
+
+@media (max-width: 1275px){
+    .page-header h1{
+        font-size:3.5rem;
+    }
+}
+
+@media (max-width:1000px){
+    .page-header h1{
+        font-size:2.5rem;
+    }
+
+    .skills{
+        flex-direction:column;
+    }
+    .skills h2{
+        margin-bottom:20px;
+    }
+
+    h2{
+        text-align:center;
+    }
+
+}
+
+@media (max-width:735px){
+    .page-header h1{
+        font-size:1.5rem;
+    }
+
+    .page-header p{
+        font-size:0.8rem;
+    }
+
+   
+    .skills-container{
+        flex-direction:column;
+    }
+
+    .skills-card{
+        margin-bottom:5px;
+        margin-right:0;
+    }
+
+    .links p{
+        text-align:center;
+    }
+}
